@@ -1,0 +1,28 @@
+# Environment variables (Sensitive Keys)
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+temp/
+output/
+tmp_*.txt
+
+# Node & Frontend Build
+node_modules/
+web/node_modules/
+web/dist/
+frontend-react/dist/
+frontend-react/node_modules/
+.DS_Store
+
+# EPUB & Large files
+*.epub
+*.zip
+
