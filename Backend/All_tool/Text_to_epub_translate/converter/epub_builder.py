@@ -79,6 +79,7 @@ class EpubBuilder:
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="zh-CN">
 <head>
+    <meta charset="utf-8" />
     <title>{html.escape(self.metadata.get('title', ''))}</title>
     <link href="../Styles/style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -100,6 +101,7 @@ class EpubBuilder:
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="zh-CN">
 <head>
+    <meta charset="utf-8" />
     <title>Cover</title>
     <style type="text/css">
         body {{ margin: 0; padding: 0; text-align: center; }}
@@ -119,6 +121,7 @@ class EpubBuilder:
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="zh-CN">
 <head>
+    <meta charset="utf-8" />
     <title>{html.escape(chap.title)}</title>
     <link href="../Styles/style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -175,6 +178,7 @@ class EpubBuilder:
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="zh-CN">
 <head>
+    <meta charset="utf-8" />
     <title>目录</title>
 </head>
 <body>
