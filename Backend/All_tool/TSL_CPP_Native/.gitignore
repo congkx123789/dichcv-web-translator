@@ -1,0 +1,17 @@
+tsl_translator
+tsl_translator.exe
+*.o
+*.bak
+.DS_Store
+epub_extracted/
+tmp_epub_input.txt
+tmp_epub_output.txt
+*.so
+*.so.*
+*.data
+*.txt
+!input.txt
+!README.md
+*.dll
+!lib/marisa/*.a
+!lib/onnxruntime/*.a
